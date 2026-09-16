@@ -1,0 +1,13 @@
+# Solid Cable shares broadcasts through the primary PostgreSQL database.
+development:
+  adapter: solid_cable
+  polling_interval: 0.2.seconds
+  message_retention: 1.hour
+
+test:
+  adapter: test
+
+production:
+  adapter: solid_cable
+  polling_interval: 0.2.seconds
+  message_retention: 1.hour

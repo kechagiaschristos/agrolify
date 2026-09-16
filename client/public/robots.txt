@@ -1,0 +1,16 @@
+User-agent: *
+Allow: /
+Disallow: /dashboard
+Disallow: /profile
+Disallow: /air
+Disallow: /soil
+Disallow: /water
+Disallow: /air-temperature
+Disallow: /air-humidity
+Disallow: /soil-temperature
+Disallow: /soil-moisture
+Disallow: /water-level
+Disallow: /watering-events
+Disallow: /map
+
+Sitemap: https://agrolify.com/sitemap.xml

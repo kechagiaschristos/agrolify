@@ -1,0 +1,7 @@
+.codex
+.codex/
+.idea/
+NETWORK_COMMANDS.txt
+
+esp/camera/camera_secrets.h
+esp/device/device_secrets.h

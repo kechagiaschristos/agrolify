@@ -1,0 +1,17 @@
+{
+  "home": "/",
+  "login": "/login",
+  "register": "/register",
+  "dashboard": "/dashboard",
+  "profile": "/profile",
+  "air": "/air",
+  "soil": "/soil",
+  "water": "/water",
+  "airTemperature": "/air-temperature",
+  "airHumidity": "/air-humidity",
+  "soilTemperature": "/soil-temperature",
+  "soilMoisture": "/soil-moisture",
+  "waterLevel": "/water-level",
+  "wateringEvents": "/watering-events",
+  "map": "/map"
+}

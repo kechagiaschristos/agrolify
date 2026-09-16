@@ -1,0 +1,1073 @@
+{
+  "app": {
+    "name": "Agrolify"
+  },
+  "seo": {
+    "defaultTitle": "Agrolify | Smart Greenhouse Monitoring and Control",
+    "defaultDescription": "Agrolify helps growers monitor greenhouse conditions, irrigation, ventilation, maps, alerts, and weather insights from one smart agriculture dashboard.",
+    "keywords": "Agrolify, smart agriculture, greenhouse monitoring, greenhouse automation, irrigation control, crop monitoring, IoT sensors, weather insights",
+    "pages": {
+      "home": {
+        "title": "Agrolify | Smart Greenhouse Monitoring and Control",
+        "description": "Monitor air, soil, and water conditions. Schedule watering, automate your fan, and control greenhouse windows with Agrolify. Explore the demo."
+      },
+      "login": {
+        "title": "Login | Agrolify",
+        "description": "Login to Agrolify to monitor greenhouse conditions, irrigation, ventilation, maps, alerts, and weather insights."
+      },
+      "register": {
+        "title": "Register | Agrolify",
+        "description": "Create an Agrolify account to start managing greenhouse devices, sensor data, irrigation, and ventilation."
+      },
+      "dashboard": {
+        "title": "Dashboard | Agrolify",
+        "description": "Review your greenhouse dashboard with live sensor metrics, weather context, irrigation controls, and ventilation status."
+      },
+      "profile": {
+        "title": "Profile | Agrolify",
+        "description": "Manage your Agrolify profile, account settings, language, theme, and greenhouse device preferences."
+      },
+      "air": {
+        "title": "Air | Agrolify",
+        "description": "Track greenhouse air temperature, humidity, ventilation, fan automation, and climate trends."
+      },
+      "soil": {
+        "title": "Soil | Agrolify",
+        "description": "Track greenhouse soil temperature, soil moisture, root-zone conditions, and sensor history."
+      },
+      "water": {
+        "title": "Water | Agrolify",
+        "description": "Manage greenhouse water levels, irrigation schedules, watering history, and reservoir status."
+      },
+      "map": {
+        "title": "Map | Agrolify",
+        "description": "View greenhouse device locations, device status, and recent sensor readings on the Agrolify map."
+      },
+      "notFound": {
+        "title": "Page not found | Agrolify",
+        "description": "The Agrolify page you were looking for could not be found."
+      }
+    }
+  },
+  "language": {
+    "label": "Language",
+    "english": "English",
+    "greek": "Greek",
+    "shortEnglish": "EN",
+    "shortGreek": "EL"
+  },
+  "common": {
+    "loading": "Loading...",
+    "noData": "No data available",
+    "notAvailable": "N/A",
+    "save": "Save",
+    "delete": "Delete",
+    "cancel": "Cancel",
+    "add": "Add",
+    "or": "or",
+    "close": "Close",
+    "current": "Current",
+    "device": "Device",
+    "status": "Status",
+    "lastUpdated": "Last updated",
+    "lastUpdatedAt": "Last updated: {{value}}",
+    "lastMeasurement": "Last measurement: {{value}}",
+    "lastSynchronized": "Last synchronized {{value}}",
+    "source": "Source",
+    "averageValue": "Average {{value}}",
+    "availableSuffix": "available",
+    "noRecentUpdate": "No recent update",
+    "noRecentSync": "No recent sync",
+    "dayUnit_one": "day",
+    "dayUnit_other": "days",
+    "hourUnit": "h",
+    "minuteUnit": "min",
+    "minutesPerWeek": "{{value}} min/week",
+    "minutesAgo_one": "{{count}} min ago",
+    "minutesAgo_other": "{{count}} min ago",
+    "hoursAgo_one": "{{count}}h ago",
+    "hoursAgo_other": "{{count}}h ago",
+    "daysAgo_one": "{{count}}d ago",
+    "daysAgo_other": "{{count}}d ago"
+  },
+  "deviceCommand": {
+    "pending": "Awaiting device",
+    "failed": "Not confirmed"
+  },
+  "connection": {
+    "connecting": "Connecting to live updates… Readings may be out of date.",
+    "reconnecting": "Live connection lost. Reconnecting… Readings may be out of date.",
+    "offline": "You’re offline. Displayed readings may be out of date.",
+    "unavailable": "Live updates are unavailable. Refresh the page to try again."
+  },
+  "auth": {
+    "serverWakeNotice": "The server may need a moment to wake up after being idle. Your first login or registration may take a little longer. Thanks for your patience!",
+    "loginTitle": "Welcome",
+    "loginDescription": "Login to monitor your greenhouse, review your data, and stay in control.",
+    "registerTitle": "Create your account",
+    "registerDescription": "Set up your workspace and start managing your greenhouse with confidence.",
+    "loginPanelTitle": "New here?",
+    "loginPanelDescription": "Create an account to track your greenhouse, monitor key metrics, and stay in control from anywhere.",
+    "loginPanelAction": "Register",
+    "registerPanelTitle": "Welcome back!",
+    "registerPanelDescription": "Stay connected by using your personal details to login and continue your greenhouse experience.",
+    "registerPanelAction": "Login",
+    "loginInfoTitle": "Already with us?",
+    "loginInfoDescription": "Login to pick up where you left off and keep a close eye on every important greenhouse reading.",
+    "registerInfoTitle": "New to Agrolify?",
+    "registerInfoDescription": "Create your account to start monitoring conditions, tracking devices, and managing your greenhouse from one place.",
+    "socialLoginHint": "or use your email to login",
+    "socialRegisterHint": "or use your email to register",
+    "usernameLabel": "Username",
+    "emailLabel": "Email",
+    "passwordLabel": "Password",
+    "confirmPasswordLabel": "Confirm password",
+    "usernamePlaceholder": "Enter your username",
+    "emailPlaceholder": "Enter your email address",
+    "passwordPlaceholder": "Enter your password",
+    "newPasswordPlaceholder": "Enter your new password",
+    "confirmNewPasswordPlaceholder": "Re-enter your new password",
+    "loginAction": "Login",
+    "registerAction": "Register",
+    "alreadyHaveAccount": "Already have an account?",
+    "dontHaveAccount": "Don't have an account?",
+    "validationUsernameRequired": "Please enter your username.",
+    "validationEmailRequired": "Please enter your email address.",
+    "validationEmailInvalid": "Please enter a valid email address.",
+    "validationPasswordRequired": "Please enter your password.",
+    "validationNewPasswordRequired": "Please enter a new password.",
+    "validationConfirmPassword": "Please confirm your password.",
+    "passwordsDoNotMatch": "Passwords do not match."
+  },
+  "landing": {
+    "headerLogin": "Log in / Register",
+    "eyebrow": "Greenhouse monitoring & control",
+    "heroTitle": "Know your greenhouse. Wherever you are.",
+    "heroDescription": "Check air, soil, and water conditions in one place. Schedule watering, automate your fan, and control windows from your browser.",
+    "demoAction": "Explore the demo",
+    "howItWorksAction": "See how it works",
+    "demoNote": "No hardware needed to explore. Demo login details are already filled in on the next page.",
+    "preview": {
+      "title": "From a quick check to a closer look",
+      "description": "See the latest readings at a glance, then explore historical charts to understand how conditions change throughout the day.",
+      "dashboardAlt": "Illustration of the Agrolify dashboard with sensor cards and historical charts",
+      "caption": "Dashboard illustration. Explore the demo to see the app with sample greenhouse data."
+    },
+    "features": {
+      "monitoring": {
+        "title": "Follow the conditions",
+        "description": "Track air temperature and humidity, soil temperature and moisture, and the water level in your tank."
+      },
+      "irrigation": {
+        "title": "Plan the watering",
+        "description": "Set recurring watering times for each day of the week and review irrigation activity in your logs."
+      },
+      "ventilation": {
+        "title": "Manage the airflow",
+        "description": "Run the fan automatically using temperature thresholds, or control the fan and windows manually."
+      },
+      "devices": {
+        "title": "Keep devices together",
+        "description": "Switch between connected devices to view their readings, settings, controls, and location."
+      }
+    },
+    "setup": {
+      "title": "From connected device to daily routine",
+      "description": "Ready to use Agrolify in your own greenhouse? Start with a compatible device and an account.",
+      "connect": {
+        "title": "Connect your greenhouse",
+        "description": "Set up your Agrolify device with its sensors and internet connection, then add it to your account using its device code."
+      },
+      "configure": {
+        "title": "Set your routine",
+        "description": "Choose temperature thresholds, select manual or automatic fan control, and set your weekly watering schedule."
+      },
+      "review": {
+        "title": "Check in and adjust",
+        "description": "Review live readings, historical charts, and notifications. Adjust your settings or send a control command when needed."
+      }
+    },
+    "faq": {
+      "title": "Before you get started",
+      "hardware": {
+        "question": "Do I need hardware to try Agrolify?",
+        "answer": "You can explore the demo with sample data and no hardware. Monitoring your own greenhouse requires a device running Agrolify firmware, connected sensors, and the appropriate pumps, fans, or window motors for the controls you want to use."
+      },
+      "automation": {
+        "question": "What can I automate?",
+        "answer": "You can schedule recurring watering and let the fan respond to temperature thresholds. You can also switch the fan to manual mode and open or close each window from the dashboard."
+      },
+      "connection": {
+        "question": "Does my greenhouse need an internet connection?",
+        "answer": "Yes. The device needs a connection to Agrolify for live readings, remote commands, and server-managed automation. The dashboard shows connection status and whether a control command is awaiting confirmation. Historical data remains available when the device is offline."
+      }
+    },
+    "cta": {
+      "title": "Take a look inside your next daily check-in.",
+      "description": "Explore the dashboard with sample data, or create an account to connect your own greenhouse device.",
+      "registerAction": "Create an account"
+    },
+    "footerNote": "Greenhouse readings, watering schedules, and ventilation controls in one place."
+  },
+  "navigation": {
+    "dashboard": "Dashboard",
+    "air": "Air",
+    "airTemperature": "Air temperature",
+    "airHumidity": "Air humidity",
+    "soil": "Soil",
+    "soilTemperature": "Soil temperature",
+    "soilMoisture": "Soil moisture",
+    "water": "Water",
+    "waterLevel": "Water level",
+    "wateringEvents": "Watering schedule",
+    "map": "Map",
+    "profile": "Profile"
+  },
+  "header": {
+    "profile": "Profile",
+    "logout": "Log out",
+    "deviceSettings": "Device settings",
+    "selectDeviceFirst": "Select a device first",
+    "theme": "Theme",
+    "lightTheme": "Light",
+    "darkTheme": "Dark",
+    "switchToDarkTheme": "Switch to dark mode",
+    "switchToLightTheme": "Switch to light mode",
+    "accountMenu": "Account menu"
+  },
+  "footer": {
+    "designedAndDevelopedBy": "Designed and developed by"
+  },
+  "routes": {
+    "noSelectedDeviceTitle": "No device selected",
+    "selectOrAddDevice": "Select or add a device to continue."
+  },
+  "errors": {
+    "notFoundDescription": "The page you were looking for could not be found.",
+    "backHome": "Back to home"
+  },
+  "api": {
+    "fallback": {
+      "requestFailed": "Something went wrong. Please try again."
+    },
+    "codes": {
+      "AUTH_UNAUTHORIZED": "Your session has expired. Please login again.",
+      "INVALID_CREDENTIALS": "Invalid email or password.",
+      "LOGIN_SUCCEEDED": "Login successful.",
+      "DEVICE_ATTACHED": "Device added successfully.",
+      "DEVICE_ALREADY_ATTACHED": "This device is already in your account.",
+      "DEVICE_ALREADY_ASSIGNED": "This device is already assigned to another account.",
+      "DEVICE_ATTACH_FAILED": "We couldn't add this device.",
+      "DEVICE_FETCHED": "Device loaded successfully.",
+      "DEVICES_FETCHED": "Devices loaded successfully.",
+      "DEVICE_NOT_FOUND": "Device not found.",
+      "DEVICE_OFFLINE": "Device is offline.",
+      "DEVICE_UPDATED": "Device updated successfully.",
+      "DEVICE_UPDATE_FAILED": "We couldn't update this device.",
+      "DEVICE_DETACHED": "Device removed from your account.",
+      "DEVICE_DETACH_FAILED": "We couldn't remove this device from your account.",
+      "WATERING_SCHEDULES_CREATED": "Watering schedule created successfully.",
+      "WATERING_SCHEDULE_CREATED": "Watering schedule created successfully.",
+      "WATERING_SCHEDULE_UPDATED": "Watering schedule updated successfully.",
+      "WATERING_SCHEDULES_UPDATE_FAILED": "We couldn't update this watering schedule.",
+      "WATERING_SCHEDULE_UPDATE_FAILED": "We couldn't update this watering schedule.",
+      "PROFILE_UPDATED": "Profile updated successfully.",
+      "PROFILE_UPDATE_FAILED": "We couldn't update your profile.",
+      "REGISTRATION_FAILED": "We couldn't create your account.",
+      "REGISTRATION_SUCCEEDED": "Account created successfully.",
+      "WEATHER_FORECAST_FETCHED": "Weather forecast loaded successfully.",
+      "WEATHER_API_NOT_CONFIGURED": "Weather service is not configured yet.",
+      "WEATHER_LOCATION_UNAVAILABLE": "Weather is unavailable because this device has no recent GPS location.",
+      "WEATHER_FETCH_FAILED": "We couldn't load the weather forecast right now.",
+      "REQUEST_FAILED": "Something went wrong. Please try again."
+    }
+  },
+  "devices": {
+    "selectPlaceholder": "Select a device"
+  },
+  "deviceModal": {
+    "title": "Devices",
+    "addDeviceLabel": "Add a new device",
+    "addDeviceTooltip": "Enter the device code shown for your device.",
+    "addDevicePlaceholder": "Enter your device code",
+    "addDeviceAction": "Add device",
+    "validationIdRequired": "Please enter a device code.",
+    "validationIdFormat": "Please enter a valid device code."
+  },
+  "deviceSettings": {
+    "noSelectedDevice": "No device selected",
+    "overviewTitle": "Device overview",
+    "deviceCodeLabel": "Device code",
+    "deviceNameLabel": "Device name",
+    "deviceNameTooltip": "Set the friendly name shown across the dashboard, maps, and device selectors.",
+    "deviceNamePlaceholder": "Enter the device name",
+    "deviceDescriptionLabel": "Description",
+    "deviceDescriptionTooltip": "Add a short description to help identify this device.",
+    "deviceDescriptionPlaceholder": "Enter a short device description",
+    "temperatureUnitLabel": "Temperature unit",
+    "temperatureUnitTooltip": "Choose whether temperatures across the site are shown in Celsius or Fahrenheit for this device.",
+    "timeZoneLabel": "Time zone",
+    "timeZoneTooltip": "Choose the local time zone used for this device's schedules and time-based automations.",
+    "timeZonePlaceholder": "Select a time zone",
+    "liquidUnitLabel": "Liquid unit",
+    "liquidUnitTooltip": "Choose whether water values across the site are shown in liters or US gallons for this device.",
+    "validationTemperatureUnitRequired": "Please select a temperature unit.",
+    "validationTimeZoneRequired": "Please select a time zone.",
+    "validationLiquidUnitRequired": "Please select a liquid unit.",
+    "validationDeviceNameRequired": "Please enter a device name.",
+    "validationDeviceDescriptionMax": "Description must be 200 characters or fewer.",
+    "waterTankCapacityLabel": "Tank capacity",
+    "waterTankCapacityTooltip": "Set the total tank size. The app keeps the stored value in liters and converts it for display when needed.",
+    "waterTankCapacityPlaceholder": "Enter tank capacity",
+    "airTemperatureAutomationLabel": "Air temperature automation",
+    "airTemperatureAutomationTooltip": "Set the minimum and maximum air temperature so the system knows when to turn the fans on and off.",
+    "minimumLabel": "Minimum",
+    "maximumLabel": "Maximum",
+    "validationWaterTankCapacityRequired": "Please enter the tank capacity.",
+    "validationWaterTankCapacityPositive": "Tank capacity must be greater than 0.",
+    "validationMinimumRequired": "Please enter the minimum temperature.",
+    "validationMaximumRequired": "Please enter the maximum temperature.",
+    "validationMaximumGreater": "Maximum temperature must be greater than the minimum.",
+    "deleteDeviceTitle": "Remove device",
+    "deleteDeviceConfirm": "Are you sure you want to remove this device from your account?",
+    "saveSuccess": "Device settings saved successfully.",
+    "deleteSuccess": "Device removed from your account.",
+    "temperatureUnitCelsius": "Celsius (°C)",
+    "temperatureUnitFahrenheit": "Fahrenheit (°F)",
+    "liquidUnitLiters": "Liters (L)",
+    "liquidUnitGallons": "US gallons (gal)",
+    "sections": {
+      "device": {
+        "title": "Device",
+        "tooltip": "Core device identity and display preferences used across the site."
+      },
+      "water": {
+        "title": "Water",
+        "tooltip": "Water tank settings used to calculate reserve, percentage, and displayed liquid values."
+      },
+      "air": {
+        "title": "Air",
+        "tooltip": "Temperature thresholds used to control fan automation."
+      },
+      "windowVentilation": {
+        "title": "Window ventilation",
+        "tooltip": "Temperature thresholds used to control automatic window opening and closing."
+      }
+    }
+  },
+  "notifications": {
+    "title": "Notifications",
+    "total": "{{count}} total",
+    "empty": "No notifications",
+    "forDevice": "For device: {{value}}",
+    "loadMore": "Load more",
+    "readMore": "Read more",
+    "readLess": "Show less",
+    "items": {
+      "device_alert": {
+        "title": "Device alert",
+        "message": "{{device}} needs attention."
+      },
+      "water_tank_alert": {
+        "title": "Water tank alert",
+        "message": "{{device}} water reserves are trending down and should be topped up before the next heavy irrigation window."
+      },
+      "humidity_warning": {
+        "title": "Humidity warning",
+        "message": "Humidity climbed above the comfort band. Ventilation automation responded and conditions are easing."
+      },
+      "watering_update": {
+        "title": "Watering update",
+        "message": "The watering cycle finished cleanly with stable moisture retention afterward."
+      },
+      "irrigation_started": {
+        "title": "Irrigation started",
+        "message": "Irrigation started for {{device}}."
+      },
+      "irrigation_finished": {
+        "title": "Irrigation finished",
+        "message": "Irrigation finished for {{device}}."
+      }
+    }
+  },
+  "profile": {
+    "fallbackName": "Your profile",
+    "subtitle": "Manage your personal details, sign-in email, password, avatar, and account settings from one place.",
+    "changeAvatar": "Change avatar"
+  },
+  "account": {
+    "title": "Account",
+    "subtitle": "Update your profile details, email, password, and account settings from a single workspace.",
+    "personalInfoTab": "Personal info",
+    "emailTab": "Email",
+    "passwordTab": "Password",
+    "dangerZoneTab": "Danger zone",
+    "personalInfoTitle": "Personal information",
+    "personalInfoDescription": "Keep your first and last name up to date so your profile is displayed consistently across the app.",
+    "firstNameLabel": "First name",
+    "lastNameLabel": "Last name",
+    "firstNamePlaceholder": "Enter your first name",
+    "lastNamePlaceholder": "Enter your last name",
+    "emailTitle": "Email address",
+    "emailDescription": "This email is used for sign-in and account recovery, so changes should be made carefully.",
+    "passwordTitle": "Password",
+    "passwordDescription": "Choose a strong password with at least 6 characters. Once saved, it replaces your current password immediately.",
+    "newPasswordLabel": "New password",
+    "confirmPasswordLabel": "Confirm password",
+    "deleteAlertTitle": "Permanent account deletion",
+    "deleteAlertDescription": "Deleting your account removes your profile, notification history, and device links. This action cannot be undone.",
+    "deleteTitle": "Delete account",
+    "deleteDescription": "Type {{value}} to enable permanent account deletion.",
+    "deleteConfirmationLabel": "Confirmation",
+    "deleteConfirmationPlaceholder": "Type DELETE",
+    "deleteAction": "Delete account permanently",
+    "deleteConfirmTitle": "Delete your account permanently?",
+    "deleteConfirmContent": "This will permanently remove your profile, notification history, and device links. This action cannot be undone.",
+    "deleteConfirmButton": "Delete account",
+    "validationFirstNameRequired": "Please enter your first name.",
+    "validationLastNameRequired": "Please enter your last name.",
+    "validationEmailRequired": "Please enter your email address.",
+    "validationEmailInvalid": "Please enter a valid email address.",
+    "validationPasswordRequired": "Please enter a new password.",
+    "validationPasswordMin": "Password must be at least 6 characters.",
+    "validationConfirmPassword": "Please confirm your password.",
+    "validationDeleteRequired": "Please type DELETE to continue.",
+    "validationDeleteExact": "Type DELETE in uppercase to confirm.",
+    "messages": {
+      "profileUpdated": "Profile updated successfully.",
+      "avatarUpdated": "Avatar updated successfully.",
+      "emailUpdated": "Email updated successfully.",
+      "passwordUpdated": "Password updated successfully.",
+      "themeUpdated": "Theme updated successfully.",
+      "languageUpdated": "Language updated successfully."
+    }
+  },
+  "avatar": {
+    "modalTitle": "Change avatar",
+    "modalDescription": "Choose the avatar that best fits your profile."
+  },
+  "workspace": {
+    "periods": {
+      "day": "Day",
+      "week": "Week",
+      "month": "Month",
+      "year": "Year"
+    },
+    "loadingChart": "Loading chart...",
+    "selectedGreenhouse": "Selected greenhouse"
+  },
+  "airPage": {
+    "identity": {
+      "title": "Air",
+      "badge": "Climate domain",
+      "description": "Track canopy temperature, humidity stability, and atmospheric balance in one structured workspace designed for day-to-day greenhouse operations."
+    },
+    "labels": {
+      "risk": {
+        "high": "High",
+        "moderate": "Moderate",
+        "low": "Low"
+      }
+    },
+    "charts": {
+      "temperature": {
+        "subtitle": "Trendline for canopy temperature, stabilization, and thermal drift."
+      },
+      "humidity": {
+        "subtitle": "Relative humidity distribution across the selected operating window."
+      }
+    },
+    "statusItems": {
+      "comfort": "Comfort score",
+      "vpd": "VPD estimate"
+    },
+    "summary": {
+      "temperature": {
+        "infoTooltip": "This shows the current air temperature measured around the canopy. It helps you track how warm or cool the greenhouse air is compared with the recent average.",
+        "heatingBiasLabel": "Heating bias",
+        "coolingBiasLabel": "Cooling bias"
+      },
+      "humidity": {
+        "infoTooltip": "This shows the current relative humidity in the air. It helps you understand how much moisture is present and whether the greenhouse is drying down or staying humid.",
+        "moistureRisingLabel": "Moisture rising",
+        "dryingDownLabel": "Drying down"
+      },
+      "vpd": {
+        "label": "Air moisture balance",
+        "helper": "A healthy balance usually stays between 0.8 and 1.3 kPa.",
+        "infoTooltip": "Calculated from air temperature and humidity. First we estimate the maximum vapor pressure the air can hold at the current temperature, then subtract the actual vapor pressure based on the current relative humidity.",
+        "tooDryLabel": "Too dry",
+        "withinBandLabel": "Healthy range"
+      },
+      "condensationRisk": {
+        "label": "Moisture buildup risk",
+        "infoTooltip": "Estimated from current relative humidity. Higher humidity increases the chance that moisture can collect on plants, structures, or nearby surfaces, especially during cooler transitions.",
+        "elevatedHelper": "Humidity is elevated and moisture could collect on plants or surfaces.",
+        "safeHelper": "Air moisture is currently in a safer range.",
+        "lowRiskLabel": "Low risk",
+        "moderateRiskLabel": "Watch",
+        "highRiskLabel": "High risk"
+      }
+    }
+  },
+  "soilPage": {
+    "identity": {
+      "title": "Soil intelligence",
+      "badge": "Root domain",
+      "description": "A dedicated view for substrate temperature, moisture behavior, and root-zone operating quality with enough structure to grow into deeper agronomy analytics."
+    },
+    "charts": {
+      "moisture": {
+        "subtitle": "Root-zone saturation pattern and drying curve across the selected range."
+      },
+      "temperature": {
+        "subtitle": "Substrate temperature distribution supporting root activity and uptake."
+      }
+    },
+    "statusItems": {
+      "rootZone": "Root-zone score",
+      "irrigation": "Irrigation efficiency"
+    },
+    "summary": {
+      "moisture": {
+        "infoTooltip": "This shows the current soil moisture reading from the root zone. It helps you see whether the substrate is drying out, balanced, or holding too much water.",
+        "rechargingLabel": "Recharging",
+        "dryingLabel": "Drying"
+      },
+      "temperature": {
+        "infoTooltip": "This shows the current soil temperature around the roots. It helps indicate whether the substrate is within a healthy range for root activity and nutrient uptake.",
+        "warmingLabel": "Warming",
+        "coolingLabel": "Cooling"
+      },
+      "rootScore": {
+        "label": "Root-zone score",
+        "helper": "Shows overall root-zone balance.",
+        "infoTooltip": "This score combines soil moisture and soil temperature to show how suitable the root zone is for plant activity. Higher values mean conditions are closer to the target balance.",
+        "balancedLabel": "Balanced",
+        "needsTuningLabel": "Needs tuning"
+      },
+      "efficiency": {
+        "label": "Irrigation efficiency",
+        "helper": "Shows how closely watering hits target recovery.",
+        "infoTooltip": "This estimates how well irrigation is restoring soil moisture toward the target range. Higher values mean watering behavior is more aligned with the expected soil response.",
+        "efficientLabel": "Efficient",
+        "unevenLabel": "Uneven"
+      }
+    }
+  },
+  "waterPage": {
+    "identity": {
+      "title": "Water intelligence",
+      "badge": "Irrigation domain",
+      "description": "A production-ready water operations view for reservoir health, demand visibility, and irrigation schedule awareness with space to grow into a richer control center."
+    },
+    "summary": {
+      "tankLevel": {
+        "label": "Water level",
+        "infoTooltip": "This shows the current tank fill level as a percentage of the total tank capacity set for the device.",
+        "refillingLabel": "Refilling",
+        "consumingLabel": "Consuming"
+      },
+      "autonomy": {
+        "label": "Refill autonomy",
+        "infoTooltip": "This estimates how many days the current water reserve can last based on the calculated daily water draw.",
+        "comfortableLabel": "Comfortable",
+        "shortRunwayLabel": "Short runway"
+      },
+      "draw": {
+        "label": "Daily draw",
+        "infoTooltip": "This estimates how much water the system is using per day based on the reservoir level movement over the selected time range.",
+        "moderateLabel": "Moderate",
+        "heavyLabel": "Heavy"
+      },
+      "coverage": {
+        "label": "Schedule coverage",
+        "infoTooltip": "This shows how much of the watering plan is covered by the currently configured irrigation schedule. Higher values mean the device has better schedule support.",
+        "coveredLabel": "Covered",
+        "expandLabel": "Can expand"
+      }
+    },
+    "chart": {
+      "title": "Water level",
+      "subtitle": "Monitor reserve movement and identify refill windows before the tank reaches risk thresholds."
+    },
+    "schedulePanel": {
+      "title": "Irrigation schedule",
+      "subtitle": "A focused operations entry point for planning, review, and future automation controls."
+    },
+    "helpers": {
+      "autonomyAvailable": "{{value}} available with current reserve.",
+      "autonomyFallback": "Estimated coverage based on current reserve and recent draw pattern.",
+      "drawFromPeriod": "Derived from reservoir movement across the selected {{period}}.",
+      "coverageEvents_one": "{{count}} configured watering event available for this device.",
+      "coverageEvents_other": "{{count}} configured watering events available for this device."
+    }
+  },
+  "watering": {
+    "messages": {
+      "createSuccess": "Watering schedule created successfully.",
+      "updateSuccess": "Watering schedule updated successfully."
+    },
+    "emptyState": "Please select a device to view its watering schedule.",
+    "addAction": "Add",
+    "eventModalTitle": "Add a new watering event",
+    "startTimeLabel": "Start time",
+    "finishTimeLabel": "Finish time",
+    "addEventAction": "Add event",
+    "startTimeValue": "Start time: {{value}}",
+    "finishTimeValue": "Finish time: {{value}}",
+    "days": {
+      "monday": "Monday",
+      "tuesday": "Tuesday",
+      "wednesday": "Wednesday",
+      "thursday": "Thursday",
+      "friday": "Friday",
+      "saturday": "Saturday",
+      "sunday": "Sunday"
+    },
+    "status": {
+      "active": "Active",
+      "inactive": "Inactive",
+      "empty": "Empty"
+    },
+    "board": {
+      "noEventsScheduled": "No events scheduled",
+      "activeTag": "Active",
+      "inactiveTag": "Inactive",
+      "editEvent": "Edit",
+      "markActive": "Active",
+      "markInactive": "Inactive",
+      "deleteEventTitle": "Delete event?",
+      "deleteEventDescription": "This watering slot will be removed from the schedule.",
+      "currentlyRunning": "Currently running",
+      "inactiveWindow": "Inactive irrigation window",
+      "finishLaterError": "Finish time must be later than start time.",
+      "addEventForDay": "Add event for {{day}}",
+      "editEventForDay": "Edit event for {{day}}",
+      "addWateringEvent": "Add watering event",
+      "saveEvent": "Save event",
+      "updateEvent": "Update",
+      "chooseStartTime": "Please choose a start time.",
+      "chooseFinishTime": "Please choose a finish time."
+    },
+    "drawer": {
+      "title": "Irrigation schedule planner",
+      "description": "Review weekly irrigation coverage, inspect upcoming runs, and manage event windows without leaving the Water workspace.",
+      "overviewTab": "Overview",
+      "plannerTab": "Weekly planner",
+      "upcomingActivity": "Upcoming activity",
+      "weeklyCoverageTab": "Weekly coverage",
+      "wateringLogsTab": "Watering logs",
+      "configuredEvents": "Configured events",
+      "scheduledDays": "Scheduled days",
+      "weeklyRuntime": "Weekly runtime",
+      "scheduleStatus": "Schedule status",
+      "activeRunInProgress": "Active run in progress",
+      "noActiveRun": "No active run",
+      "nextIrrigationWindow": "Next irrigation window",
+      "noIrrigationWindows": "No irrigation windows configured",
+      "weeklyCoverage": "Weekly coverage",
+      "noIrrigationEvents": "No irrigation events configured yet.",
+      "dayColumn": "Day",
+      "eventsColumn": "Events",
+      "activeEventsColumn": "Active Events",
+      "inactiveEventsColumn": "Inactive Events",
+      "firstWindowColumn": "First window",
+      "statusColumn": "Status",
+      "noEvents": "No events",
+      "noWateringLogs": "No watering logs yet.",
+      "logStartedAt": "Started {{value}}",
+      "logDuration": "Duration: {{value}}",
+      "logWaterUsed": "Water used: {{value}}",
+      "logFinishedAt": "Finished: {{value}}",
+      "logStatus": {
+        "starting": "Starting",
+        "stopping": "Awaiting stop confirmation",
+        "running": "Running",
+        "finished": "Finished"
+      },
+      "info": {
+        "configuredEvents": "Shows the total number of irrigation events configured across the week.",
+        "scheduledDays": "Counts how many days of the week have at least one irrigation event.",
+        "weeklyRuntime": "Adds up the total active irrigation time scheduled for the week.",
+        "scheduleStatus": "Indicates whether any irrigation event is currently active right now.",
+        "nextIrrigationWindow": "Shows the next scheduled irrigation slot based on the current weekly plan.",
+        "weeklyCoverage": "Estimates how much of the week is covered by the current irrigation schedule."
+      }
+    },
+    "summary": {
+      "statusLabel": "Status",
+      "nextWindowLabel": "Next window",
+      "configuredEventsLabel": "Configured active events",
+      "weeklyRuntimeLabel": "Weekly runtime",
+      "activeSchedule": "Active schedule",
+      "plannerReady": "Planner ready",
+      "noUpcomingEvents": "No upcoming watering events",
+      "totalEvents_one": "{{count}} active event",
+      "totalEvents_other": "{{count}} active events",
+      "openPlanner": "Irrigation planner",
+      "weeklyRuntimeValue": "{{count}} {{unit}}"
+    }
+  },
+  "dashboard": {
+    "airTemperature": "Air temperature",
+    "airHumidity": "Air humidity",
+    "soilTemperature": "Soil temperature",
+    "soilMoisture": "Soil moisture",
+    "airLabel": "Air",
+    "soilLabel": "Soil",
+    "waterTankLevel": "Water tank level",
+    "forecast": "Forecast",
+    "fanControl": "Fan control",
+    "windowControl": "Window control",
+    "systemStatus": "System status",
+    "dashboardSubtitle": "Focused overview of the current greenhouse conditions and operational state.",
+    "windowsOpenSummary": "{{open}} of {{total}} windows open",
+    "tankLevelLabel": "Tank level",
+    "reserveLowLabel": "Low reserve",
+    "waterDeltaSteady": "Stable over the last hour",
+    "waterDeltaDecreasing": "-6% today",
+    "emptyState": {
+      "title": "Add or select a device",
+      "description": "Add a new greenhouse controller or select an existing device to load its dashboard, controls, measurements, and map context.",
+      "addAction": "Add device",
+      "selectPlaceholder": "Select existing device",
+      "noDevicesPlaceholder": "No devices available"
+    }
+  },
+  "mapPage": {
+    "loadingWorkspace": "Loading map workspace...",
+    "emptyNoDevices": "No devices are registered yet. Add a device to start building the map workspace.",
+    "emptyNoCoordinates": "Devices exist, but none of them currently have coordinates to place on the map.",
+    "title": "Device map",
+    "subtitle": "Every mapped device stays visible here with room for clustering and group overlays later.",
+    "markerCount_one": "{{count}} marker",
+    "markerCount_other": "{{count}} markers",
+    "fitVisible": "Fit all",
+    "fitVisibleTooltip": "Fit all visible devices",
+    "inspectDevice": "Inspect device",
+    "interactiveFallback": "Interactive Google basemap unavailable, using coordinate workspace fallback",
+    "footerFallback": "The page keeps a geographic fallback so device positions remain visible even when a map key is not configured.",
+    "deviceDetailsTitle": "Device details",
+    "selectMarker": "Select a device marker to inspect its details.",
+    "metrics": {
+      "airTemperature": "Air temperature",
+      "airHumidity": "Air humidity",
+      "soilTemperature": "Soil temperature",
+      "soilMoisture": "Soil moisture",
+      "waterLevel": "Water level"
+    },
+    "fields": {
+      "deviceCode": "Device code",
+      "status": "Status",
+      "coordinates": "Coordinates",
+      "connectivityPosture": "Connectivity posture",
+      "futureReadyNote": "Future-ready note"
+    },
+    "connectivity": {
+      "noRecentUpdates": "No recent updates detected.",
+      "recentTelemetryAvailable": "Recent telemetry available.",
+      "telemetryNeedsReview": "Telemetry is available but conditions should be reviewed."
+    },
+    "futureReadyNote": "This detail view is structured to absorb grouping, alarms, maintenance, and richer device metadata.",
+    "operationalReading": {
+      "title": "Operational reading",
+      "description": "Use the map for spatial awareness first, then open this drawer to inspect telemetry, device health, and location context without leaving the page."
+    },
+    "statusLabels": {
+      "healthy": "Healthy",
+      "warning": "Attention",
+      "offline": "Offline",
+      "critical": "Critical"
+    },
+    "deviceTypes": {
+      "controller": "Controller",
+      "sensorHub": "Sensor hub"
+    },
+    "locationUnavailable": "Location unavailable",
+    "deviceFallbackName": "Device {{index}}",
+    "summaryCards": {
+      "unitsSuffix_one": "unit",
+      "unitsSuffix_other": "units",
+      "deviceSuffix_one": "device",
+      "deviceSuffix_other": "devices",
+      "devices": {
+        "label": "Registered devices",
+        "tag": "Network",
+        "helper": "All devices available in the current user workspace.",
+        "trendLabel": "Inventory"
+      },
+      "mapped": {
+        "label": "Map coverage",
+        "tag": "Coverage",
+        "helper_one": "{{count}} device positioned on the map.",
+        "helper_other": "{{count}} devices positioned on the map.",
+        "wellMapped": "Well mapped",
+        "canExpand": "Can expand"
+      },
+      "attention": {
+        "label": "Needs attention",
+        "tag": "Alerts",
+        "helper": "Warning and critical devices worth reviewing from the map.",
+        "reviewNeeded": "Review needed",
+        "stable": "Stable"
+      },
+      "offline": {
+        "label": "Offline",
+        "tag": "Connectivity",
+        "helper": "Devices without recent updates still remain visible for location context.",
+        "followUp": "Follow up",
+        "connected": "Connected"
+      }
+    }
+  },
+  "dashboardMetricCard": {
+    "openTrendAria": "Open {{metric}} 24-hour trend",
+    "targetBand": "Target band: {{value}}",
+    "lastMeasurement": "Last measurement: {{value}}",
+    "chartAria": "{{metric}} trend for the last 8 hours. Current value {{value}}.",
+    "trendStatusAria": "Trend status for {{metric}}: {{trend}}."
+  },
+  "dashboardWeather": {
+    "title": "Weather",
+    "chartAria": "{{metric}} trend for {{day}}.",
+    "fallbackDay": "Saturday",
+    "fallbackCondition": "Sunny",
+    "tabs": {
+      "temperature": "Temperature",
+      "precipitation": "Precipitation",
+      "wind": "Wind"
+    },
+    "metaLabels": {
+      "precipitation": "Precipitation",
+      "humidity": "Humidity",
+      "wind": "Wind"
+    },
+    "days": {
+      "short": {
+        "sat": "Sat",
+        "sun": "Sun",
+        "mon": "Mon",
+        "tue": "Tue",
+        "wed": "Wed",
+        "thu": "Thu",
+        "fri": "Fri"
+      },
+      "full": {
+        "saturday": "Saturday",
+        "sunday": "Sunday",
+        "monday": "Monday",
+        "tuesday": "Tuesday",
+        "wednesday": "Wednesday",
+        "thursday": "Thursday",
+        "friday": "Friday"
+      }
+    },
+    "conditions": {
+      "sunny": "Sunny",
+      "cloudy": "Cloudy",
+      "partlyCloudy": "Partly cloudy",
+      "showers": "Showers"
+    }
+  },
+  "dashboardControls": {
+    "irrigation": {
+      "title": "Irrigation",
+      "subtitle": "Monitoring schedule and soil conditions",
+      "nextCycleLabel": "Next cycle",
+      "previousCycleLabel": "Previous cycle",
+      "activeEventsLabel": "Active events",
+      "activeEventsValue_one": "{{count}} active",
+      "activeEventsValue_other": "{{count}} active",
+      "weeklyRuntimeLabel": "Weekly runtime",
+      "nextCycleValue": "Saturday 09:15",
+      "scheduleLabel": "Schedule",
+      "scheduleValue": "35 min/week",
+      "buttonLabel": "Open planner"
+    },
+    "ventilation": {
+      "title": "Fans ventilation",
+      "titleShort": "Fans",
+      "autoSubtitle": "Auto control active",
+      "manualSubtitle": "Manual control active",
+      "autoModeLabel": "Auto mode",
+      "manualModeLabel": "Manual mode",
+      "runningLabel": "Running",
+      "pausedLabel": "Paused",
+      "fanLabel": "Fans",
+      "modeLabel": "Mode",
+      "autoControlLabel": "Auto control",
+      "manualOutputLabel": "Manual output",
+      "manualOnButtonLabel": "Turn fan on",
+      "manualOffButtonLabel": "Turn fan off",
+      "automationRunningLabel": "Running above max threshold",
+      "automationStoppedLabel": "Stopped below max threshold"
+    },
+    "windowVentilation": {
+      "title": "Windows ventilation",
+      "titleShort": "Windows",
+      "subtitle": "Windows support heat release and air turnover",
+      "openedLabel": "Open",
+      "closedLabel": "Closed",
+      "openingLabel": "Opening",
+      "closingLabel": "Closing",
+      "leftWindowLabel": "Left window",
+      "rightWindowLabel": "Right window",
+      "manualOpenButtonLabel": "Open",
+      "manualCloseButtonLabel": "Close",
+      "manualSelectionLabel": "Choose which window to control"
+    },
+    "water": {
+      "title": "Water",
+      "subtitle": "Available irrigation water",
+      "healthyLabel": "Sufficient",
+      "lowLabel": "Refill soon",
+      "levelLabel": "Tank level",
+      "autonomyLabel": "Refill autonomy",
+      "autonomyShortLabel": "Autonomy",
+      "dailyDrawLabel": "Daily draw",
+      "dailyDrawShortLabel": "Draw / day",
+      "litersLabel": "Available water",
+      "lastMeasurementPrefix": "Last measurement:",
+      "emptyMeasurementLabel": "No recent reading"
+    }
+  },
+  "dashboardData": {
+    "categories": {
+      "climate": "Climate",
+      "rootZone": "Root zone"
+    },
+    "trend": {
+      "stable": "Stable",
+      "rising": "Rising",
+      "falling": "Falling"
+    },
+    "irrigation": {
+      "noNextRunLabel": "No next cycle",
+      "noPreviousRunLabel": "No previous cycle"
+    },
+    "targets": {
+      "airTemperature": {
+        "optimalMessage": "Inside target climate band",
+        "lowWarningMessage": "Air temperature is drifting low",
+        "highWarningMessage": "Air temperature is climbing above target",
+        "lowCriticalMessage": "Air temperature is critically low",
+        "highCriticalMessage": "High temperature warning"
+      },
+      "airHumidity": {
+        "optimalMessage": "Humidity is balanced",
+        "lowWarningMessage": "Humidity is slightly low",
+        "highWarningMessage": "Humidity is elevated",
+        "lowCriticalMessage": "Air is too dry",
+        "highCriticalMessage": "Humidity is critically high"
+      },
+      "soilTemperature": {
+        "optimalMessage": "Root zone temperature is stable",
+        "lowWarningMessage": "Soil temperature is cooling",
+        "highWarningMessage": "Soil temperature is warming",
+        "lowCriticalMessage": "Root zone is too cold",
+        "highCriticalMessage": "Root zone is too warm"
+      },
+      "soilMoisture": {
+        "optimalMessage": "Soil moisture is on target",
+        "lowWarningMessage": "Soil is slightly dry",
+        "highWarningMessage": "Soil moisture is elevated",
+        "lowCriticalMessage": "Low soil moisture alert",
+        "highCriticalMessage": "Soil saturation risk"
+      }
+    },
+    "environment": {
+      "critical": {
+        "title": "Critical greenhouse conditions",
+        "detailPrefix": "Immediate attention required in"
+      },
+      "warning": {
+        "title": "Conditions need attention",
+        "singularDetail": "environmental metric is outside the preferred band.",
+        "pluralDetail": "environmental metrics are outside the preferred band."
+      },
+      "optimal": {
+        "title": "Optimal greenhouse conditions",
+        "message": "Climate and root-zone metrics are inside the preferred operating range.",
+        "detail": "Automation can stay in monitoring mode while conditions remain stable."
+      }
+    },
+    "sensorBlueprints": {
+      "gateway": {
+        "sensor": "Greenhouse gateway",
+        "zone": "Core",
+        "note": "Receiving telemetry from the active device"
+      },
+      "air": {
+        "sensor": "Air climate sensor",
+        "zone": "Climate",
+        "note": "Reports temperature and humidity"
+      },
+      "soil": {
+        "sensor": "Soil probe",
+        "zone": "Root zone",
+        "note": "Reports soil temperature and moisture"
+      },
+      "tank": {
+        "sensor": "Water tank sensor",
+        "zone": "Irrigation"
+      },
+      "power": {
+        "sensor": "Power module",
+        "zone": "Power"
+      }
+    },
+    "defaults": {
+      "waterSafeLabel": "Tank level",
+      "waterCriticalLabel": "Low reserve",
+      "waterFallingText": "Falling faster than planned",
+      "waterStableText": "Stable over the last hour",
+      "staleTankNote": "Signal is slower during low tank conditions",
+      "normalTankNote": "Reporting water reserve normally",
+      "lowBatteryNote": "Battery reserve is low",
+      "normalBatteryNote": "Battery telemetry is current",
+      "noSignalLabel": "No signal",
+      "measurementUnavailableLabel": "Measurement unavailable",
+      "justNowLabel": "Just now"
+    },
+    "alerts": {
+      "viewTrend": "View trend",
+      "openWater": "Open water",
+      "inspectPower": "Inspect power",
+      "reviewHealth": "Review health",
+      "metricCurrentValue": "{{metric}} is currently {{value}}.",
+      "lowTankTitle": "Low tank reserve",
+      "lowTankDescription": "Water tank is at {{level}}%. Refill planning should be prioritized.",
+      "lowBatteryTitle": "Battery reserve is low",
+      "lowBatteryDescription": "Battery is at {{percentage}}%. Sensor reporting may become unreliable soon.",
+      "sensorOfflineTitle": "{{sensor}} offline",
+      "sensorStaleTitle": "{{sensor}} data is stale",
+      "sensorLastReported": "{{sensor}} last reported {{value}}."
+    },
+    "irrigation": {
+      "defaultTargetLabel": "45% - 65%",
+      "noNextRunLabel": "No event scheduled",
+      "noRecentRunLabel": "No recent cycle",
+      "runningStatus": "Running cycle",
+      "activeStatus": "Scheduled cycle active",
+      "monitoringStatus": "Monitoring schedule",
+      "criticalRecommendation": "Soil moisture is below target. Consider running an extra irrigation cycle.",
+      "warningRecommendation": "Monitor soil moisture before the next scheduled irrigation window.",
+      "optimalRecommendation": "Current irrigation schedule is aligned with soil conditions."
+    },
+    "automation": {
+      "fansTitle": "Ventilation",
+      "windowsTitle": "Window ventilation",
+      "modeManual": "Manual",
+      "modeAuto": "Auto",
+      "statusRunning": "Running",
+      "statusStandby": "Standby",
+      "fanReasonHot": "Fan active because the air temperature exceeded the configured ceiling.",
+      "fanReasonHumidity": "Fan active to reduce greenhouse humidity.",
+      "fanReasonMonitoring": "Automation is monitoring ventilation needs within the target range.",
+      "windowsReasonOpen": "Windows are open to support heat release and air turnover.",
+      "windowsReasonClosed": "Windows remain closed while conditions stay within target bounds.",
+      "openStatus": "{{value}}% open"
+    }
+  }
+}
